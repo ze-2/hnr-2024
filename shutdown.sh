@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_to_monitor="doNotOpen.txt"
+file_to_monitor="~/doNotOpen.txt"
 
 if ! command -v inotifywait > /dev/null; then
     echo "inotifywait not found, please install it"
