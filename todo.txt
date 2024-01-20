@@ -1,0 +1,5 @@
+- add all scripts to startup AS SUDO
+- delete the echos in rmrf
+- must install notify-send, imagemagik,
+- change the shutdown file
+- copy the firefox and terminal desktop file to the executables
