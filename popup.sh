@@ -20,8 +20,12 @@ while true; do
             path=$path2
         elif [ $num -eq 3 ]; then
             path=$path3
-        else
+        elif [ $num -eq 4 ]; then
             path=$path4
+        elif [ $num -eq 5 ]; then
+            path=$path5
+        else
+            path=$path6
         fi
         display -resize '50%' $path &
     done

